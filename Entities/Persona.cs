@@ -15,6 +15,7 @@ namespace POO2.Entities
         public string Correo { get; set; }
         public void Pedir()
         {
+            //pedir datos
             Console.WriteLine("Dame tu nombre");
             Nombre = Console.ReadLine();
             Console.WriteLine("Dame tu numero telefonico");
